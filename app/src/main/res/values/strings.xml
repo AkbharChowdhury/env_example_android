@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ENV Example</string>
+    <string name="api">env_android_example</string>
+
+</resources>
