@@ -15,9 +15,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         String api = getString(R.string.api);
-        setTitle("API KEY " + api);
-        Log.d("API", api);
-//        setTitle(Str."\{s}");
+        setTitle("My name is Ted");
+        Log.d("API_A", api);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

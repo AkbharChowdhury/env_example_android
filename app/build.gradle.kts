@@ -6,7 +6,7 @@ plugins {
 }
 
 val apiKey: String = gradleLocalProperties(rootDir,providers)
-    .getProperty("api","")
+    .getProperty("api","No API Key found")
 
 
 android {
@@ -28,11 +28,6 @@ android {
 
     buildTypes {
 
-        defaultConfig {
-
-//            resValue "string", "prod_name", ""
-//            resValue "string", "beta_name", ""
-        }
         release {
             isMinifyEnabled = false
             proguardFiles(
